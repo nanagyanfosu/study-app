@@ -52,7 +52,9 @@ This project is a Study Recommendation Expert System built using Flask (Python) 
 ## Knowledge Base (Prolog)
 The system retrieves study tips using a Prolog knowledge base that defines rules based on Prolog: 
 recommendation(visual, short, _, _, 'Use mind maps or flashcards to quickly review concepts.').
+
 recommendation(auditory, long, _, _, 'Record yourself reading notes and play them back for review.').
+
 recommendation(kinesthetic, _, hard, _, 'Break down the material into smaller tasks and practice repeatedly.').
 
 
